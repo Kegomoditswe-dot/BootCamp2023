@@ -4,6 +4,9 @@
     <title>
         CodeTride
     </title>
+    <head>
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
     
 </head>
 <body>
@@ -30,20 +33,24 @@
 
     </header>
 
-    <main style="margin-bottom: 100px;">
+    <main>
 <table style="width: 100%; height: 100px;">
     <tr>
-    <th colspan="2">
-    </th>
-        <td>
-            <img src="Assets/Images/new skills.jpg" 
+    <td colspan="2">
+        <video width="100%" height="450px" controls>
+            <source src="./Assets/Videos/production ID_4962649.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+        </video> 
+        <!-- <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" width="100%" height="600vh" frameborder="0">
+        </iframe> -->
+           <!-- <img src="Assets/Images/new skills.jpg" 
             width="100%" 
             height="300px"  
-            alt="">
+            alt=""
+            style="object-fit: cover"
+            /> -->
         </td>
     </tr>
-</table>
-<table>
     <tr>
         <td>
             <h1 style="padding-left: 50px;"> Kegomoditswe Modirwa</h1>
@@ -63,25 +70,40 @@
     </tr>
 </table>
     </main>
-
-    <footer style="height: 200px; background-color: blueviolet;">
-<table style="width: 100%;">
-    <tr>
-        <td style="padding-left: 20vh; padding-bottom: 7vh;">
-            Langa Street <br> Moroka <br> 1880
-        </td>
-        <th colspan="2"  style="padding-right: 20vh;">make a map here</th>
-    </tr>
-    <tr>
-        <td style="padding-left: 20vh;"> Social media links
-            
-        </td>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <footer>
+        <table id="foot">
+            <tr>
+                <td style="padding-left: 20vh; padding-bottom: 10vh;" rowspan="2">
+                    Langa Street <br> Moroka <br> 1880
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <th rowspan="2"  style="padding-right: 20vh;">
+                    <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3483.346838436489!2d26.21978251420547!3d-29.18391398220347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e8fc606957be81f%3A0x19d4c6b9731b038b!2sTsoseletso%20High%20School!5e0!3m2!1sen!2sza!4v1676068255329!5m2!1sen!2sza" 
+                    width="300" 
+                    height="200" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                </th>
+            </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 20vh;"> Social media links</td>
+                </tr>
+                <tr>
+                <td style="padding-left: 20vh;">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <a href="#" class="fa fa-twitter"></a>
         <a href="#" class="fa fa-instagram"></a>
-
-    </tr>
-</table>
-    </footer>
+        <a href="#" class="fa fa-facebook"></a>
+                </td>
+            </tr>
+        </table>
+            </footer>
 </body>
 </html>
